@@ -4,9 +4,12 @@
   "description": "NodeJS module for connecting to the Adobe Marketing Cloud APIs. Provides both the REST (default) and SOAP clients",
   "author": "Gary Rogers <garogers@adobe.com>",
   "dependencies": {
+    "cli-color": "^1.2.0",
     "shred": "0.8.3",
     "soap": "https://github.com/xiz0r/node-soap/tarball/master",
-    "underscore.string": "2.2.x"
+    "underscore.string": "2.2.x",
+    "nxmlpp": "0.0.1",
+    "string": "^3.3.3"
   },
   "engine": "node 0.6.18"
 }
